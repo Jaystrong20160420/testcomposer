@@ -1,0 +1,15 @@
+{
+    "name": "jaystrong2024/testcomposer",
+    "description": "第一个composer项目",
+    "type": "library",
+    "require": {
+        "php": "~7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Testcomposer\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
